@@ -13,22 +13,28 @@ section{
 
 /* start of head  */
 .home {
-    background-image: url("h_img.jpg");
-    width: 100%;
+    background-image: url("h_img.jpg");   
     height: 100%;
     position: relative;
     background-size: cover;
     color: #fff;
+    padding: 0 0 0 0;
 
+}
+
+.home img{
+    float: left;
+    margin-left: 50rem;
+    margin-top: 7rem;
+    align-items: center;
 }
 
 h1 {
     font-size: 3rem;
     text-align: center;
-    margin-top: 10rem;
-
+    margin-top: 0rem;
+    height: 400px;
+    line-height: 3rem;
+    margin-bottom: 4rem;
 }
 
-.logo {
-    
-}
