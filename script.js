@@ -1,31 +1,31 @@
 $(document).ready(function(){
-    $("#design-paragraph").click(function(){
-     $("#design-img").show();
-     $("#design-paragraph").hide();
+    $("#par1").click(function(){
+     $("#design-image").show();
+     $("#par1").hide();
     });
-    $("#design-img").click(function(){
-      $("#design-paragraph").show();
-      $("#design-img").hide();
+    $("#design-image").click(function(){
+      $("#par1").show();
+      $("#design-image").hide();
     })
    });
    $(document).ready(function(){
-     $("#development-paragraph").click(function(){
-      $("#development-img").show();
-      $("#development-paragraph").hide();
+     $("#par2").click(function(){
+      $("#development-image").show();
+      $("#par2").hide();
      });
-     $("#development-img").click(function(){
-       $("#development-paragraph").show();
-       $("#development-img").hide();
+     $("#development-image").click(function(){
+       $("#par2").show();
+       $("#development-image").hide();
      })
     });
     $(document).ready(function(){
-     $("#product-paragraph").click(function(){
-      $("#product-img").show();
-      $("#product-paragraph").hide();
+     $("#par3").click(function(){
+      $("#product-image").show();
+      $("#par3").hide();
      });
-     $("#product-img").click(function(){
-       $("#product-paragraph").show();
-       $("#product-img").hide();
+     $("#product-image").click(function(){
+       $("#par3").show();
+       $("#product-image").hide();
      })
     });
     $(document).ready(function(){
@@ -80,11 +80,11 @@ $(document).ready(function(){
    });
    $(document).ready(function(){
     $("form#form2").submit(function(event){
-      var name = $("input#yourname").val();
-      var email = $("input#youremail").val();
+      var name = $("input#name").val();
+      var email = $("input#email").val();
       var message = $("textarea#comment").val();
       event.preventDefault();
-      if ($("input#yourname").val() && $("input#youremail").val()){
+      if ($("input#name").val() && $("input#email").val()){
        alert (name + ", we have received your message. Thank you for contacting us.");
      }
      else{
@@ -92,7 +92,3 @@ $(document).ready(function(){
      }
     });
    });
-
-    
-
-
