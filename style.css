@@ -22,19 +22,34 @@ section{
 
 }
 
-.home img{
+.home .logo img{
     float: left;
-    margin-left: 50rem;
+    margin-left: 10rem;
     margin-top: 7rem;
     align-items: center;
+    margin-right: 15rem;
 }
 
-.home h1 {
+.home .welcome h1{
     font-size: 3rem;
     text-align: center;
     margin-top: 0rem;
     height: 400px;
-    line-height: 3rem;
+    line-height: 50rem;
     margin-bottom: 4rem;
+    margin-right: 20rem;
 }
 
+.home .delanistudio h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0rem;
+    height: 400px;    
+    margin-bottom: 1rem;
+}
+.home p{
+    margin-bottom: 3rem;
+    font-size: 0.5remrem;
+    text-align: center;
+    margin-top: 1rem;
+}
