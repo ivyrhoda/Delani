@@ -30,6 +30,63 @@
 /* .containerworks{
     display: flex;
 } */
+
+ /*What we do section*/
+ .row{
+  display: inline-flex;
+}
+.text4 h2{
+ text-align: center;
+ font-family: cursive;
+}
+#design-img{
+
+ margin-top: 1em;
+ 
+}
+.show h5{
+text-align: center; 
+font-size: 20px; 
+padding-right: 90%; 
+padding-left: 40%; 
+margin-top: -2px; 
+ padding-top: -18px;
+}
+#development{
+margin: right 8rem; 
+padding-left: 156px; 
+padding-top: 15px;
+}
+
+#development h5{
+text-align: center; 
+font-size: 20px; 
+margin-top: -9px;
+ padding-top: 10px;
+ margin-left: 60rem;
+}
+#product{
+padding-right: 400px;
+ padding-left: 150px; 
+ margin-bottom: 3rem; 
+}
+
+#product h5{
+text-align: center;
+font-size: 20px;
+margin-left: 29rem;
+}
+
+.show{
+ font-size: 18px;
+ padding: 7px;
+ text-align: center;
+ justify-content: center;
+}
+.hide{
+ display: none;
+}
+/*End of what we do section*/
 .row{
     display: inline-flex;
 }
