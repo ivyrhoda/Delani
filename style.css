@@ -74,7 +74,7 @@
 }
 #product-image img {
     margin-left: 60rem;
-    margin-top: -24rem;
+    margin-top: -25rem;
 }
 #product-image h2 {
    margin-left: 57rem;
@@ -126,8 +126,8 @@
       margin: 20px;
     }
     #portfolio{
-      margin-left:8%;
-      margin-right: 10%; 
+      margin-left: 0;
+      margin-right: 0; 
     }
     button{
       margin-left: 2%;
@@ -239,11 +239,7 @@ button{
     } */
     .portfolio {
       padding: 0 0 0 0;
-    }
-    #portfolio{
-      margin-left:20;
-      margin-right: 70; 
-    }
+    }   
   }
 footer{
     text-align: center;
